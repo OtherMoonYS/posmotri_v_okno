@@ -4,6 +4,7 @@
 
 # Project: Posmotri V Okno
 ### The project was created during the second training sprint
+### Link to this project: https://github.com/OtherMoonYS/posmotri_v_okno
 
 ## Technologies used
 
