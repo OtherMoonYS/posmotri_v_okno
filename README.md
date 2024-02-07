@@ -13,4 +13,4 @@
 
 ## Github Pages
 
-<h2><a href="#" targer="_blank">Link</a></h2>
+<h2><a href="https://othermoonys.github.io/posmotri_v_okno/" targer="_blank">Link</a></h2>
