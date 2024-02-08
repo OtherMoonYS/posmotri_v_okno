@@ -43,7 +43,6 @@ ol {
   color: white;
   width: 399px;
   height: 34px;
-  color: rgb(255, 255, 255);
   font-family: Fira Sans Condensed;
   font-size: 18px;
   font-weight: 700;
@@ -79,7 +78,7 @@ ol {
 
 .content__list {
   height: 298px;
-  overflow-y: scroll;
+  overflow-y: auto;
   position: relative;
 }
 
@@ -189,7 +188,7 @@ ol {
   width: 225px;
   appearance: none;
   background-color: transparent;
-  color: rgba(255, 255, 255, 0.7);
+  color: white;
   font-family: Fira Sans Condensed;
   font-size: 18px;
   font-weight: 400;
@@ -245,6 +244,7 @@ ol {
 
 .search-form__label:has(:focus-visible) {
   outline: 1px solid white;
+  outline-offset: 1px;
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
