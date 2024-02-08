@@ -58,8 +58,6 @@ button {
 
 .more-button {
   width: 399px;
-  letter-spacing: 0;
-  display: block;
   margin: 1px;
 }
 
@@ -81,7 +79,6 @@ button {
 
 .content__details {
   width: 100%;
-  height: 534px;
   display: flex;
   flex-direction: column;
   gap: 26px;
@@ -154,7 +151,7 @@ button {
 }
 
 .title {
-  font-family: 'Oswald';
+  font-family: 'Oswald', 'Fira Sans Condensed', sans-serif;
   font-size: 75px;
   font-weight: 700;
   line-height: 94%;
@@ -177,7 +174,7 @@ button {
 .content__video-card-title {
   width: 200px;
   color: rgb(255, 255, 255);
-  font-family: 'Oswald';
+  font-family: 'Oswald', 'Fira Sans Condensed', sans-serif;
   font-size: 30px;
   font-weight: 700;
   line-height: 100%;
@@ -266,10 +263,6 @@ button {
 .search-form__label:hover .search-form__label-text {
   text-decoration: underline 1px  white;
   text-underline-position: under;
-}
-
-.search-form__textfield:hover {
-  text-decoration: none;
 }
 
 .button:hover {
